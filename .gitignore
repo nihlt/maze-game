@@ -1,4 +1,6 @@
 archive/
 obj/
 *.md
+!README.md
 *.txt
+debug.log
