@@ -13,6 +13,9 @@
 2. далі я подумав чому б не зробити просту гру на асемблері. ну і прикрутити туди gemini API. так, через асемблер :)
     - ну і взагалі вийшло, насправді. через asm можна викликати windows служби, то фактично запит до нейронки був через них
     - перший прототип гри можна глянути в `src\maze.asm`
+    - нейронка керувала "емоціями" куба: злість - колір, агресія - швидкість обертання, злоба - пульсація. це `bin\game.exe`, а версія на C++ з імітацією відповіді - `src-2\tests\cube.cpp` (пиши `max` або `min` і Enter)
+
+    ![cube emotions](assets/cube.gif)
 
 3. ну але я зрозумів що далеко на asm не вивезти. дуже складно на ньому масштабувати проекти. там більше треба паритись про деталі реалізації. дуже муторно. це не те що мені хочеться від програмування
 
@@ -36,6 +39,9 @@ this project was created purely as an experiment, inspired by computer graphics 
 2. then i thought why not make a simple game in assembly. and hook up the gemini API to it. yep, through assembly :)
     - and it actually worked tbh. you can call windows services through asm, so basically the request to the neural network went through them
     - you can check out the first game prototype in `src\maze.asm`
+    - the neural network controlled the cube's "emotions": anger - color, aggression - spin speed, malice - pulsing. that's `bin\game.exe`, and the C++ version with fake responses is `src-2\tests\cube.cpp` (type `max` or `min` and hit Enter)
+
+    ![cube emotions](assets/cube.gif)
 
 3. but well i realized you can't go far with asm. scaling projects on it is super hard. you have to sweat too much over implementation details. such a drag. not exactly what i want from programming
 
