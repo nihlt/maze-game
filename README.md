@@ -1,5 +1,7 @@
 [🇺🇦 Українська](#українська) | [🇬🇧 English](#english)
 
+![maze gameplay](assets/demo.gif)
+
 ---
 
 ## українська
@@ -19,6 +21,10 @@
 4. потім я почав масштабувати гру, додаючи нові фічі. вороги, ключи, процедурна генерація, портали, повідомлення від "архітектора"
 все це в папці `src-2\`
 
+    зібрати і запустити: `build_maze_v2.bat` (потрібен g++ з MinGW)
+
+    керування: `W`/`S` - вперед/назад, `A`/`D` - поворот, `Space` - ривок (вбиває ворогів), `T` - вся карта, `I` - повідомлення архітектора, `+`/`-` - рівень, `R` - рестарт, `Q` - вихід
+
 ---
 
 ## english
@@ -37,3 +43,7 @@ this project was created purely as an experiment, inspired by computer graphics 
 
 4. then i started scaling the game, adding new features. enemies, keys, procedural generation, portals, messages from the "architect"
 all of this is in the `src-2\` folder
+
+    build and run: `build_maze_v2.bat` (needs g++ from MinGW)
+
+    controls: `W`/`S` - forward/back, `A`/`D` - turn, `Space` - dash (kills enemies), `T` - full map, `I` - architect message, `+`/`-` - level, `R` - restart, `Q` - quit
